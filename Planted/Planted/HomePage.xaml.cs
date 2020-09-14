@@ -21,7 +21,7 @@ namespace Planted
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
     public sealed partial class HomePage : Page
-    {
+    {      
 
         Dictionary<string, Plant> plantDictionary = new Dictionary<string, Plant>()
         {
@@ -76,11 +76,106 @@ namespace Planted
                     Facts="A great plant to have in the home to help eliminate any airborne toxins in the air."
                 }
             },
+
+            {
+                "Peace Lily", new FoliagePlant()
+                {
+                    PlantName="Peace Lily",
+                    ScientificName="Spathiphyllum",
+                    Watering="Well draining pot, keep the soil moist.",
+                    Sunlight="Bright, indirect sunlight.",
+                    Temp="Above 16 degrees.",
+                    Toxic="If ingested, it can be mildly toxic.",
+                    Facts="They produce beautiful long-lasting white flowers and make an excellent gift."
+                }
+            },
+
+            {
+                "The Zebra Plant", new FoliagePlant()
+                {
+                    PlantName="The Zebra Plant",
+                    ScientificName="Calathea Zebrina",
+                    Watering="Keep the soil moist, slow down watering in winter",
+                    Sunlight="Bright, shaded spot is ideal.",
+                    Temp="Above 13 degrees",
+                    Toxic="Not toxic to pets",
+                    Facts="The Zebra plant produces purple or white inconspicuous flowers which are unlikely to appear indoors."
+                }
+            },
+
+            {
+                "Calathea Orbifolia", new FoliagePlant()
+                {
+                    PlantName="Orbofolia",
+                    ScientificName="Calathea Orbifolia",
+                    Watering="Little and often",
+                    Sunlight="Diffused light, shielded from direct light.",
+                    Temp="18-23 degrees.",
+                    Toxic="Not toxic to pets.",
+                    Facts="A great plant variety for helping to remove toxins from the air."
+                }
+            },
+
+            {
+                "Spider Plant", new FoliagePlant()
+                {
+                    PlantName="Spider Plant",
+                    ScientificName="Chlorophytum Comosum",
+                    Watering="Keep well hydrated especially through the growing season.",
+                    Sunlight="High levels of bright indirect light.",
+                    Temp="Above 16 degrees",
+                    Toxic="Considered toxic if ingested.",
+                    Facts="Originated in South Africa. This plant is wonderful at helping to eliminate any airborne toxins in the home."
+                }
+            },
+
+            {
+                "Aloe Vera", new SucculentPlant()
+                {
+                    PlantName="Aloe",
+                    ScientificName="Aloe Vera",
+                    Watering="Keep soil moist. The plant retains a lot of water.",
+                    Sunlight="Bright light conditions.",
+                    Temp="26 degrees is good, don’t go below 10 degrees.",
+                    Toxic="Toxic to cats and dogs.",
+                    Flowers="Yellow flowers that can take 3-4 years to arrive.",
+                    Facts="Aloe is known for its health and beauty benefits."
+                }
+            },
+
+            {
+                "String of Pearls", new SucculentPlant()
+                {
+                    PlantName="String of Pearls",
+                    ScientificName="Senecio rowleyanus",
+                    Watering="Leave to dry out completely between watering.",
+                    Sunlight="Prefers high levels of bright indirect sunlight.",
+                    Temp="Warm room temperatures.",
+                    Toxic="Mildly toxic if ingested.",
+                    Flowers="Can produce small white flowers that smell like cinnamon.",
+                    Facts="The String of Pearls is one of the most sought after plants with its unique trailing stems of pearl-like leaves."
+                }
+            },
+
+            {
+                "Snake Plant", new SucculentPlant()
+                {
+                    PlantName="Snake Plant",
+                    ScientificName="Sansevieria trifasciata",
+                    Watering="Allow the soil to dry out between watering.",
+                    Sunlight="Moderate to high levels of sunlight.",
+                    Temp="Normal room temperatures.",
+                    Toxic="Mildly toxic if ingested.",
+                    Flowers="No flowers",
+                    Facts="A great plant to have in the home to eliminate airborne toxins."
+                }
+            }
         };
 
         public HomePage()
         {
-            this.InitializeComponent();           
+            this.InitializeComponent();
+
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -97,5 +192,6 @@ namespace Planted
         {
             this.Frame.Navigate(typeof(Cactus));
         }
+
     }
 }

@@ -23,11 +23,13 @@ namespace Planted
     /// </summary>
     public sealed partial class MainPage : Page
     {
+
         public MainPage()
         {
-            this.InitializeComponent();
 
+            this.InitializeComponent();
             Redirect();
+
         }
 
         private async void Redirect()
@@ -35,5 +37,6 @@ namespace Planted
             await Task.Delay(3400);
             this.Frame.Navigate(typeof(HomePage));
         }
+
     }
 }

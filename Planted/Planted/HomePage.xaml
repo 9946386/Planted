@@ -42,7 +42,7 @@
         <Image Source="/Assets/Blob2.png" Grid.Row="4" Grid.RowSpan="8" Grid.Column="2" Grid.ColumnSpan="6" Margin="0,55,0,28"/>
 
         <Image x:Name="HPLogo" Source="/Assets/PlantedLogo.png" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="6" Margin="25,0,25,0"/>
-        
+
         <Button x:Name="FoliageButton" Grid.Row="2" Grid.RowSpan="3" Grid.Column="1" Grid.ColumnSpan="6" Background="Transparent" Margin="8,15,0,0" Click="Button_Click" ClickMode="Press">
             <Image Source="/Assets/Foliage.png"/>
         </Button>

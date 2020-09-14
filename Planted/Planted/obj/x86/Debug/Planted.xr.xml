@@ -29,7 +29,6 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="Visibility" />
     </RootType>
     <RootType FullName="Planted.Cactus" />
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
@@ -39,18 +38,17 @@
       <RootProperty Name="ClickMode" />
       <RootEvent Name="Click" />
     </RootType>
+    <RootType FullName="Planted.Foliage" />
+    <RootType FullName="Planted.HomePage" />
+    <RootType FullName="Planted.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="TextAlignment" />
       <RootProperty Name="FontFamily" />
       <RootProperty Name="Text" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="FontWeight" />
-      <RootProperty Name="Visibility" />
       <RootProperty Name="Margin" />
     </RootType>
-    <RootType FullName="Planted.Foliage" />
-    <RootType FullName="Planted.HomePage" />
-    <RootType FullName="Planted.MainPage" />
     <RootType FullName="Planted.PlantInfo" />
     <RootType FullName="Planted.Succulent" />
   </Roots.RootTypes>
