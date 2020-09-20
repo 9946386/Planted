@@ -5,6 +5,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Background" />
       <RootProperty Name="Content" />
+      <RootProperty Name="RequestedTheme" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
@@ -13,10 +14,10 @@
       <RootProperty Name="Children" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
-      <RootMethod Name="GetRowSpan" />
-      <RootMethod Name="SetRowSpan" />
       <RootMethod Name="GetColumn" />
       <RootMethod Name="SetColumn" />
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
       <RootMethod Name="GetColumnSpan" />
       <RootMethod Name="SetColumnSpan" />
     </RootType>
@@ -29,8 +30,9 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />
       <RootProperty Name="Margin" />
+      <RootProperty Name="Stretch" />
+      <RootEvent Name="Tapped" />
     </RootType>
-    <RootType FullName="Planted.Cactus" />
     <RootType FullName="Windows.UI.Xaml.Controls.Button">
       <RootProperty Name="Background" />
       <RootProperty Name="Margin" />
@@ -38,16 +40,18 @@
       <RootProperty Name="ClickMode" />
       <RootEvent Name="Click" />
     </RootType>
+    <RootType FullName="Planted.Cactus" />
     <RootType FullName="Planted.Foliage" />
     <RootType FullName="Planted.HomePage" />
     <RootType FullName="Planted.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="Margin" />
       <RootProperty Name="TextAlignment" />
       <RootProperty Name="FontFamily" />
       <RootProperty Name="Text" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="FontWeight" />
-      <RootProperty Name="Margin" />
+      <RootProperty Name="TextWrapping" />
     </RootType>
     <RootType FullName="Planted.PlantInfo" />
     <RootType FullName="Planted.Succulent" />

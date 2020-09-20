@@ -1,12 +1,16 @@
 WinMetadata\Windows.winmd
+Assets\Aloe.png
+Assets\Back.png
 Assets\BirdOdParadise.png
 Assets\BirdOfParadiseBIG.png
 Assets\Blob1.png
 Assets\Blob2.png
 Assets\Blob3.png
 Assets\bottom.png
+Assets\BunnyEars.png
 Assets\Cactus.png
 Assets\CactusTitle.png
+Assets\Euphorbia.png
 Assets\Flowering.png
 Assets\Foliage.png
 Assets\FoliagePlants.png
@@ -19,6 +23,7 @@ Assets\PeaceLily.png
 Assets\Peperomia.png
 Assets\PlantedLogo.png
 Assets\RubberTree.png
+Assets\SnakePlant.png
 Assets\SpiderPlant.png
 Assets\SplashImage.png
 Assets\SplashScreen.scale-200.png
@@ -26,6 +31,7 @@ Assets\Square150x150Logo.scale-200.png
 Assets\Square44x44Logo.scale-200.png
 Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 Assets\StoreLogo.png
+Assets\StringOfPearls-1.png
 Assets\Succulents.png
 Assets\SucculentsTitle.png
 Assets\topBanner.png

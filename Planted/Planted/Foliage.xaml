@@ -38,6 +38,8 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
+        <Image x:Name="Back" Source="/Assets/Back.png" Grid.Row="0" Grid.Column="1" Tapped="Back_Tapped"/>
+
         <Image Source="/Assets/Blob1.png" Grid.Row="1" Grid.RowSpan="4" Grid.Column="0" Grid.ColumnSpan="6" Margin="-100,0,0,0"/>
         <Image Source="/Assets/Blob2.png" Grid.Row="4" Grid.RowSpan="8" Grid.Column="2" Grid.ColumnSpan="6" Margin="0,55,0,28"/>
 
@@ -48,31 +50,31 @@
             <Image Source="/Assets/BirdOdParadise.png"/>
         </Button>
 
-        <Button x:Name="MonsteraBtn" Background="Transparent" Grid.Row="4" Grid.RowSpan="2" Grid.Column="4" Grid.ColumnSpan="3" Margin="20,0,0,0">
+        <Button x:Name="MonsteraBtn" Background="Transparent" Grid.Row="4" Grid.RowSpan="2" Grid.Column="4" Grid.ColumnSpan="3" Margin="20,0,0,0" Click="MonsteraBtn_Click">
             <Image Source="/Assets/Monstera.png"/>
         </Button>
 
-        <Button x:Name="RubberTreeBtn" Background="Transparent" Grid.Row="6" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="3" Margin="20,0,0,0">
+        <Button x:Name="RubberTreeBtn" Background="Transparent" Grid.Row="6" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="3" Margin="20,0,0,0" Click="RubberTreeBtn_Click">
             <Image Source="/Assets/RubberTree.png"/>
         </Button>
 
-        <Button x:Name="PeperomiaBtn" Background="Transparent" Grid.Row="6" Grid.RowSpan="2" Grid.Column="4" Grid.ColumnSpan="3" Margin="20,0,0,0">
+        <Button x:Name="PeperomiaBtn" Background="Transparent" Grid.Row="6" Grid.RowSpan="2" Grid.Column="4" Grid.ColumnSpan="3" Margin="20,0,0,0" Click="PeperomiaBtn_Click">
             <Image Source="/Assets/Peperomia.png"/>
         </Button>
 
-        <Button x:Name="PeaceLilyBtn" Background="White" Grid.Row="8" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="3" Margin="20,0,0,0">
+        <Button x:Name="PeaceLilyBtn" Background="White" Grid.Row="8" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="3" Margin="20,0,0,0" Click="PeaceLilyBtn_Click">
             <Image Source="/Assets/PeaceLily.png"/>
         </Button>
 
-        <Button x:Name="ZebrinaBtn" Background="Transparent" Grid.Row="8" Grid.RowSpan="2" Grid.Column="4" Grid.ColumnSpan="3" Margin="20,0,0,0">
+        <Button x:Name="ZebrinaBtn" Background="Transparent" Grid.Row="8" Grid.RowSpan="2" Grid.Column="4" Grid.ColumnSpan="3" Margin="20,0,0,0" Click="ZebrinaBtn_Click">
             <Image Source="/Assets/Zebrina.png"/>
         </Button>
 
-        <Button x:Name="OrbifoliaBtn" Background="Transparent" Grid.Row="10" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="3" Margin="20,0,0,0">
+        <Button x:Name="OrbifoliaBtn" Background="Transparent" Grid.Row="10" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="3" Margin="20,0,0,0" Click="OrbifoliaBtn_Click">
             <Image Source="/Assets/Orbofolia.png"/>
         </Button>
 
-        <Button x:Name="SpiderBtn" Background="Transparent" Grid.Row="10" Grid.RowSpan="2" Grid.Column="4" Grid.ColumnSpan="3" Margin="20,0,0,0">
+        <Button x:Name="SpiderBtn" Background="Transparent" Grid.Row="10" Grid.RowSpan="2" Grid.Column="4" Grid.ColumnSpan="3" Margin="20,0,0,0" Click="SpiderBtn_Click">
             <Image Source="/Assets/SpiderPlant.png"/>
         </Button>
 

@@ -37,12 +37,28 @@
             <ColumnDefinition Width="*" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
+        
+        <Image x:ConnectionId='2' x:Name="Back" Source="/Assets/Back.png" Grid.Row="0" Grid.Column="1"                     />
 
         <Image Source="/Assets/Blob1.png" Grid.Row="1" Grid.RowSpan="4" Grid.Column="0" Grid.ColumnSpan="6" Margin="-100,0,0,0"/>
         <Image Source="/Assets/Blob2.png" Grid.Row="4" Grid.RowSpan="8" Grid.Column="2" Grid.ColumnSpan="6" Margin="0,55,0,28"/>
 
-        <Image x:ConnectionId='2' x:Name="topBanner" Source="/Assets/topBanner.png" Grid.Row="0" Grid.RowSpan="3" Grid.Column="0" Grid.ColumnSpan="8" Margin="10,25,10,0"/>
-        <Image x:ConnectionId='3' x:Name="foliageTitle" Source="/Assets/SucculentsTitle.png" Grid.Row="3" Grid.Column='2' Grid.ColumnSpan="4"/>
+        <Image x:ConnectionId='3' x:Name="topBanner" Source="/Assets/topBanner.png" Grid.Row="0" Grid.RowSpan="3" Grid.Column="0" Grid.ColumnSpan="8" Margin="10,25,10,0"/>
+        <Image x:ConnectionId='4' x:Name="foliageTitle" Source="/Assets/SucculentsTitle.png" Grid.Row="3" Grid.Column='2' Grid.ColumnSpan="4"/>
+
+        <Button x:ConnectionId='5' x:Name="AloeBtn" Background="Transparent" Grid.Row="4" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="3" Margin="20,0,0,0"                      >
+            <Image Source="/Assets/Aloe.png"/>
+        </Button>
+
+        <Button x:ConnectionId='6' x:Name="SOPBtn" Background="Transparent" Grid.Row="4" Grid.RowSpan="2" Grid.Column="4" Grid.ColumnSpan="3" Margin="20,0,0,0"                     >
+            <Image Source="/Assets/StringOfPearls-1.png"/>
+        </Button>
+
+        <Button x:ConnectionId='7' x:Name="SnakePlantBtn" Background="Transparent" Grid.Row="6" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="3" Margin="20,0,0,0"                            >
+            <Image Source="/Assets/SnakePlant.png"/>
+        </Button>
+
+        <Image Source="/Assets/bottom.png" Grid.Row="8" Grid.RowSpan="4" Grid.Column="0" Grid.ColumnSpan="8" Stretch="Uniform" Margin="0,30,0,15"/>
 
     </Grid>
 </Page>

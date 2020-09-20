@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\Planted\\Planted\\Planted.csproj": {}
+    "C:\\Users\\user\\Documents\\Code\\Planted\\Planted\\Planted\\Planted.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\Planted\\Planted\\Planted.csproj": {
+    "C:\\Users\\user\\Documents\\Code\\Planted\\Planted\\Planted\\Planted.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\Planted\\Planted\\Planted.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Documents\\Code\\Planted\\Planted\\Planted\\Planted.csproj",
         "projectName": "Planted",
-        "projectPath": "C:\\Users\\user\\source\\repos\\Planted\\Planted\\Planted.csproj",
+        "projectPath": "C:\\Users\\user\\Documents\\Code\\Planted\\Planted\\Planted\\Planted.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\Planted\\Planted\\obj\\",
+        "outputPath": "C:\\Users\\user\\Documents\\Code\\Planted\\Planted\\Planted\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

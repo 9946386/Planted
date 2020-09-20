@@ -29,7 +29,55 @@ namespace Planted
 
         private void BOPBtn_Click(object sender, RoutedEventArgs e)
         {
+            App.plantSelection = "Bird of Paradise";
             this.Frame.Navigate(typeof(PlantInfo), null);
+        }
+
+        private void MonsteraBtn_Click(object sender, RoutedEventArgs e)
+        {
+            App.plantSelection = "Monstera";
+            this.Frame.Navigate(typeof(PlantInfo), null);
+        }
+
+        private void RubberTreeBtn_Click(object sender, RoutedEventArgs e)
+        {
+            App.plantSelection = "Rubber Tree";
+            this.Frame.Navigate(typeof(PlantInfo), null); 
+        }
+
+        private void PeperomiaBtn_Click(object sender, RoutedEventArgs e)
+        {
+            App.plantSelection = "Raindrop";
+            this.Frame.Navigate(typeof(PlantInfo), null);
+        }
+
+        private void PeaceLilyBtn_Click(object sender, RoutedEventArgs e)
+        {
+            App.plantSelection = "Peace Lily";
+            this.Frame.Navigate(typeof(PlantInfo), null);
+        }
+
+        private void ZebrinaBtn_Click(object sender, RoutedEventArgs e)
+        {
+            App.plantSelection = "The Zebra Plant";
+            this.Frame.Navigate(typeof(PlantInfo), null);
+        }
+
+        private void OrbifoliaBtn_Click(object sender, RoutedEventArgs e)
+        {
+            App.plantSelection = "Calathea Orbifolia";
+            this.Frame.Navigate(typeof(PlantInfo), null);
+        }
+
+        private void SpiderBtn_Click(object sender, RoutedEventArgs e)
+        {
+            App.plantSelection = "Spider Plant";
+            this.Frame.Navigate(typeof(PlantInfo), null);
+        }
+
+        private void Back_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(HomePage), null);
         }
     }
 }

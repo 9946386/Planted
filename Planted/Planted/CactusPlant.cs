@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Planted
 {
-    class CactusPlant
+    class CactusPlant : Plant
     {
         string Flowers { get; set; }
         string Spikes { get; set; }

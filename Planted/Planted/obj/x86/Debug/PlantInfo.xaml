@@ -6,10 +6,12 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    RequestedTheme="Light">
 
+    <!--<ScrollViewer>
+        <RelativePanel>-->
     <Grid>
-
         <Grid.RowDefinitions>
 
             <RowDefinition Height="*"/>
@@ -38,24 +40,36 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
+        <Image x:ConnectionId='2' x:Name="Back" Source="/Assets/Back.png" Grid.Row="0" Grid.Column="1"                     />
+
         <Image Source="/Assets/Blob1.png" Grid.Row="1" Grid.RowSpan="4" Grid.Column="0" Grid.ColumnSpan="6" Margin="-100,0,0,0"/>
         <Image Source="/Assets/Blob2.png" Grid.Row="4" Grid.RowSpan="8" Grid.Column="2" Grid.ColumnSpan="6" Margin="0,55,0,28"/>
 
-        <TextBlock x:ConnectionId='2' x:Name="PlantTitle" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="6" TextAlignment="Center" FontFamily="/Assets/Mont-HeavyDEMO.otf#Mont DEMO" Text="Foliage" FontSize="50px" FontWeight="Bold"/>
-        <TextBlock x:ConnectionId='3' x:Name="ScientificTitle" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="6" TextAlignment="Center" FontFamily="Mont DEMO" FontSize="30px" Text="Foliage"/>
+        <TextBlock x:ConnectionId='3' x:Name="PlantTitle" Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="6" Margin="0,40,0,0" TextAlignment="Center" FontFamily="/Assets/Mont-HeavyDEMO.otf#Mont DEMO" Text="Plant Title" FontSize="40px" FontWeight="Bold"/>
+        <TextBlock x:ConnectionId='4' x:Name="ScientificTitle" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="6" Margin="0,20,0,0" TextAlignment="Center" FontFamily="Mont DEMO" FontSize="25px" Text="Scientific Name"/>
 
-        <Image x:ConnectionId='4' x:Name="PlantInfoImage" Source="/Assets/BirdOfParadiseBIG.png" Grid.Row="3" Grid.RowSpan="3" Grid.Column="2" Grid.ColumnSpan="4"/>
+        <Image x:ConnectionId='5' x:Name="PlantInfoImage" Source="/Assets/BirdOfParadiseBIG.png" Grid.Row="2" Grid.RowSpan="3" Grid.Column="2" Grid.ColumnSpan="4"/>
 
-        <TextBlock x:ConnectionId='5' x:Name="Watering" Text="Watering:" FontFamily="Mont DEMO" FontWeight="Bold" FontSize="25px" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="4" Margin="0,15,0,0" />
-        <TextBlock x:ConnectionId='6' x:Name="WateringText" Text="Watering:" FontFamily="Mont DEMO" FontSize="20px" Grid.Row="6" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="6" Margin="0,50,0,0" />
-        
-        <TextBlock x:ConnectionId='7' x:Name="Sunlight" Text="Sunlight" FontFamily="Mont DEMO" FontWeight="Bold" FontSize="25px" Grid.Row="8" Grid.Column="1" Grid.ColumnSpan="4" Margin="0,15,0,0" />
-        <TextBlock x:ConnectionId='8' x:Name="SulightText" Text="Sunlight:" FontFamily="Mont DEMO" FontSize="20px" Grid.Row="8" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="6" Margin="0,50,0,0" />
+        <TextBlock x:ConnectionId='6' x:Name="Watering" Text="Watering:" FontFamily="Mont DEMO" FontWeight="Bold" FontSize="20px" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="4" Margin="0,15,0,0" />
+        <TextBlock x:ConnectionId='7' x:Name="WateringText" Text="Watering:" FontFamily="Mont DEMO" FontSize="15px" Grid.Row="5" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="6" Margin="0,40,0,45" TextWrapping="WrapWholeWords"/>
 
-        <TextBlock x:ConnectionId='9' x:Name="Temperature" Text="Temperature:" FontFamily="Mont DEMO" FontWeight="Bold" FontSize="25px" Grid.Row="10" Grid.Column="1" Grid.ColumnSpan="4" Margin="0,15,0,0" />
-        <TextBlock x:ConnectionId='10' x:Name="TemperatureText" Text="Temperature:" FontFamily="Mont DEMO" FontSize="20px" Grid.Row="10" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="6" Margin="0,50,0,0" />
+        <TextBlock x:ConnectionId='8' x:Name="Sunlight" Text="Sunlight" FontFamily="Mont DEMO" FontWeight="Bold" FontSize="20px" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="4" Margin="0,20,0,0" />
+        <TextBlock x:ConnectionId='9' x:Name="SunlightText" Text="Sunlight:" FontFamily="Mont DEMO" FontSize="15px" Grid.Row="6" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="6" Margin="0,50,0,39" TextWrapping="WrapWholeWords"/>
 
+        <TextBlock x:ConnectionId='10' x:Name="Temperature" Text="Temperature:" FontFamily="Mont DEMO" FontWeight="Bold" FontSize="20px" Grid.Row="7"  Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="4" Margin="0,25,0,0" />
+        <TextBlock x:ConnectionId='11' x:Name="TemperatureText" Text="Temperature:" FontFamily="Mont DEMO" FontSize="15px" Grid.Row="7" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="6" Margin="0,55,0,33" TextWrapping="WrapWholeWords"/>
+
+        <TextBlock x:ConnectionId='12' x:Name="Toxicity" Text="Toxicity:" FontFamily="Mont DEMO" FontWeight="Bold" FontSize="20px" Grid.Row="8"  Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="4" Margin="0,25,0,0" />
+        <TextBlock x:ConnectionId='13' x:Name="ToxicityText" Text="Toxicity:" FontFamily="Mont DEMO" FontSize="15px" Grid.Row="8" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="6" Margin="0,50,0,0" TextWrapping="WrapWholeWords"/>
+
+        <TextBlock x:ConnectionId='14' x:Name="Facts" Text="Facts:" FontFamily="Mont DEMO" FontWeight="Bold" FontSize="20px" Grid.Row="9"  Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="4" Margin="0,30,0,0" />
+        <TextBlock x:ConnectionId='15' x:Name="FactsText" Text="Facts:" FontFamily="Mont DEMO" FontSize="15px" Grid.Row="9" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="6" Margin="0,60,0,0" TextWrapping="WrapWholeWords"/>
+
+        <!--<TextBlock x:Name="Flowers" Text="Flowers:" FontFamily="Mont DEMO" FontWeight="Bold" FontSize="20px" Grid.Row="11"  Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="4" Margin="0,0,0,0" />
+        <TextBlock x:Name="FlowersText" Text="Flowers:" FontFamily="Mont DEMO" FontSize="15px" Grid.Row="11" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="6" Margin="0,25,0,0" TextWrapping="WrapWholeWords"/>-->
 
     </Grid>
+    <!--</RelativePanel>
+    </ScrollViewer>-->
 </Page>
 

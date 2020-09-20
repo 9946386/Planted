@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>37cab7b9-983d-4e79-8555-a7004a3da9f0</PackageIdentityName>
     <PackageIdentityPublisher>CN=user</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\user\source\repos\Planted\Planted\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\user\Documents\Code\Planted\Planted\Planted\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\user\source\repos\Planted\Planted\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\user\Documents\Code\Planted\Planted\Planted\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>FD64806626D753E944C5F88EFE8A5C1DFE9E7018CA1E5D5883A3AECD9F90B0F1</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>37cab7b9-983d-4e79-8555-a7004a3da9f0_1.0.0.0_x86__yzekw4x8qxe1g</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>37cab7b9-983d-4e79-8555-a7004a3da9f0_yzekw4x8qxe1g!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\user\source\repos\Planted\Planted\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-09-12T22:34:40.960</Modified>
+      <Modified>2020-09-20T01:37:58.273</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\bin\x86\Debug\Planted.exe">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\bin\x86\Debug\Planted.exe">
       <PackagePath>entrypoint\Planted.exe</PackagePath>
-      <Modified>2020-09-12T22:34:40.134</Modified>
+      <Modified>2020-09-20T01:37:57.813</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,187 +46,211 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T06:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\BirdOdParadise.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\Aloe.png">
+      <PackagePath>Assets\Aloe.png</PackagePath>
+      <Modified>2020-09-20T01:29:52.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\Back.png">
+      <PackagePath>Assets\Back.png</PackagePath>
+      <Modified>2020-09-20T01:29:52.946</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\BirdOdParadise.png">
       <PackagePath>Assets\BirdOdParadise.png</PackagePath>
-      <Modified>2020-09-12T03:28:15.959</Modified>
+      <Modified>2020-09-20T01:29:52.963</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\BirdOfParadiseBIG.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\BirdOfParadiseBIG.png">
       <PackagePath>Assets\BirdOfParadiseBIG.png</PackagePath>
-      <Modified>2020-09-12T04:22:21.765</Modified>
+      <Modified>2020-09-20T01:29:52.973</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\Blob1.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\Blob1.png">
       <PackagePath>Assets\Blob1.png</PackagePath>
-      <Modified>2020-09-12T04:01:23.462</Modified>
+      <Modified>2020-09-20T01:29:52.982</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\Blob2.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\Blob2.png">
       <PackagePath>Assets\Blob2.png</PackagePath>
-      <Modified>2020-09-12T04:01:23.469</Modified>
+      <Modified>2020-09-20T01:29:52.992</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\Blob3.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\Blob3.png">
       <PackagePath>Assets\Blob3.png</PackagePath>
-      <Modified>2020-09-12T04:01:23.474</Modified>
+      <Modified>2020-09-20T01:29:53.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\bottom.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\bottom.png">
       <PackagePath>Assets\bottom.png</PackagePath>
-      <Modified>2020-09-12T02:16:02.935</Modified>
+      <Modified>2020-09-20T01:29:52.699</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\Cactus.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\BunnyEars.png">
+      <PackagePath>Assets\BunnyEars.png</PackagePath>
+      <Modified>2020-09-20T01:29:52.709</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\Cactus.png">
       <PackagePath>Assets\Cactus.png</PackagePath>
-      <Modified>2020-09-12T01:28:40.473</Modified>
+      <Modified>2020-09-20T01:29:52.718</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\CactusTitle.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\CactusTitle.png">
       <PackagePath>Assets\CactusTitle.png</PackagePath>
-      <Modified>2020-09-12T04:47:51.577</Modified>
+      <Modified>2020-09-20T01:29:52.728</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\Flowering.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\Euphorbia.png">
+      <PackagePath>Assets\Euphorbia.png</PackagePath>
+      <Modified>2020-09-20T01:29:52.736</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\Flowering.png">
       <PackagePath>Assets\Flowering.png</PackagePath>
-      <Modified>2020-09-12T01:28:40.479</Modified>
+      <Modified>2020-09-20T01:29:52.743</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\FoliagePlants.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\FoliagePlants.png">
       <PackagePath>Assets\FoliagePlants.png</PackagePath>
-      <Modified>2020-09-12T03:28:15.965</Modified>
+      <Modified>2020-09-20T01:29:52.761</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\Foliage.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\Foliage.png">
       <PackagePath>Assets\Foliage.png</PackagePath>
-      <Modified>2020-09-12T01:28:40.485</Modified>
+      <Modified>2020-09-20T01:29:52.753</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\Monstera.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\Monstera.png">
       <PackagePath>Assets\Monstera.png</PackagePath>
-      <Modified>2020-09-12T03:28:15.971</Modified>
+      <Modified>2020-09-20T01:29:52.778</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\Orbofolia.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\Orbofolia.png">
       <PackagePath>Assets\Orbofolia.png</PackagePath>
-      <Modified>2020-09-12T03:28:15.975</Modified>
+      <Modified>2020-09-20T01:29:52.802</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\PeaceLily.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\PeaceLily.png">
       <PackagePath>Assets\PeaceLily.png</PackagePath>
-      <Modified>2020-09-12T03:28:15.980</Modified>
+      <Modified>2020-09-20T01:29:52.811</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\Peperomia.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\Peperomia.png">
       <PackagePath>Assets\Peperomia.png</PackagePath>
-      <Modified>2020-09-12T03:28:15.984</Modified>
+      <Modified>2020-09-20T01:29:52.822</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\PlantedLogo.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\PlantedLogo.png">
       <PackagePath>Assets\PlantedLogo.png</PackagePath>
-      <Modified>2020-09-12T01:09:01.090</Modified>
+      <Modified>2020-09-20T01:29:52.827</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\RubberTree.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\RubberTree.png">
       <PackagePath>Assets\RubberTree.png</PackagePath>
-      <Modified>2020-09-12T03:28:15.990</Modified>
+      <Modified>2020-09-20T01:29:52.836</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\SpiderPlant.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\SnakePlant.png">
+      <PackagePath>Assets\SnakePlant.png</PackagePath>
+      <Modified>2020-09-20T01:29:52.843</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\SpiderPlant.png">
       <PackagePath>Assets\SpiderPlant.png</PackagePath>
-      <Modified>2020-09-12T03:28:15.998</Modified>
+      <Modified>2020-09-20T01:29:52.850</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\SplashImage.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\SplashImage.png">
       <PackagePath>Assets\SplashImage.png</PackagePath>
-      <Modified>2020-09-12T01:06:23.231</Modified>
+      <Modified>2020-09-20T01:29:52.858</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\Succulents.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\StringOfPearls-1.png">
+      <PackagePath>Assets\StringOfPearls-1.png</PackagePath>
+      <Modified>2020-09-20T01:29:52.893</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\Succulents.png">
       <PackagePath>Assets\Succulents.png</PackagePath>
-      <Modified>2020-09-12T01:28:40.490</Modified>
+      <Modified>2020-09-20T01:29:52.900</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\SucculentsTitle.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\SucculentsTitle.png">
       <PackagePath>Assets\SucculentsTitle.png</PackagePath>
-      <Modified>2020-09-12T04:47:51.584</Modified>
+      <Modified>2020-09-20T01:29:52.908</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\topBanner.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\topBanner.png">
       <PackagePath>Assets\topBanner.png</PackagePath>
-      <Modified>2020-09-12T02:16:02.943</Modified>
+      <Modified>2020-09-20T01:29:52.917</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\Zebrina.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\Zebrina.png">
       <PackagePath>Assets\Zebrina.png</PackagePath>
-      <Modified>2020-09-12T03:27:58.674</Modified>
+      <Modified>2020-09-20T01:29:52.932</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2020-08-24T21:21:26.521</Modified>
+      <Modified>2020-09-20T01:29:52.770</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-24T21:21:26.530</Modified>
+      <Modified>2020-09-20T01:29:52.864</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-24T21:21:26.532</Modified>
+      <Modified>2020-09-20T01:29:52.880</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-24T21:21:26.534</Modified>
+      <Modified>2020-09-20T01:29:52.869</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-24T21:21:26.536</Modified>
+      <Modified>2020-09-20T01:29:52.875</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-24T21:21:26.539</Modified>
+      <Modified>2020-09-20T01:29:52.886</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-24T21:21:26.541</Modified>
+      <Modified>2020-09-20T01:29:52.923</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2020-09-12T01:03:36.880</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\Mont-ExtraLightDEMO.otf">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\Mont-ExtraLightDEMO.otf">
       <PackagePath>Assets\Mont-ExtraLightDEMO.otf</PackagePath>
-      <Modified>2020-09-12T04:10:35.144</Modified>
+      <Modified>2020-09-20T01:29:52.786</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\Assets\Mont-HeavyDEMO.otf">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\Assets\Mont-HeavyDEMO.otf">
       <PackagePath>Assets\Mont-HeavyDEMO.otf</PackagePath>
-      <Modified>2020-09-12T04:10:35.169</Modified>
+      <Modified>2020-09-20T01:29:52.793</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\bin\x86\Debug\Planted.xr.xml">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\bin\x86\Debug\Planted.xr.xml">
       <PackagePath>Planted.xr.xml</PackagePath>
-      <Modified>2020-09-12T21:31:42.555</Modified>
+      <Modified>2020-09-20T01:37:21.988</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-09-12T22:34:39.920</Modified>
+      <Modified>2020-09-20T01:37:57.619</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\bin\x86\Debug\Cactus.xbf">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\bin\x86\Debug\Cactus.xbf">
       <PackagePath>Cactus.xbf</PackagePath>
-      <Modified>2020-09-12T22:34:39.921</Modified>
+      <Modified>2020-09-20T01:37:57.620</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\bin\x86\Debug\Foliage.xbf">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\bin\x86\Debug\Foliage.xbf">
       <PackagePath>Foliage.xbf</PackagePath>
-      <Modified>2020-09-12T22:34:39.922</Modified>
+      <Modified>2020-09-20T01:37:57.621</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\bin\x86\Debug\HomePage.xbf">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\bin\x86\Debug\HomePage.xbf">
       <PackagePath>HomePage.xbf</PackagePath>
-      <Modified>2020-09-12T22:34:39.922</Modified>
+      <Modified>2020-09-20T01:37:57.622</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-09-12T22:34:39.923</Modified>
+      <Modified>2020-09-20T01:37:57.622</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\bin\x86\Debug\PlantInfo.xbf">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\bin\x86\Debug\PlantInfo.xbf">
       <PackagePath>PlantInfo.xbf</PackagePath>
-      <Modified>2020-09-12T22:34:39.924</Modified>
+      <Modified>2020-09-20T01:37:57.623</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\bin\x86\Debug\Succulent.xbf">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\bin\x86\Debug\Succulent.xbf">
       <PackagePath>Succulent.xbf</PackagePath>
-      <Modified>2020-09-12T22:34:39.924</Modified>
+      <Modified>2020-09-20T01:37:57.624</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T05:33:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-09-12T04:49:04.277</Modified>
+      <Modified>2020-09-20T01:37:22.458</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\bin\x86\Debug\Core\Planted.exe">
+    <AppxPackagedFile Include="C:\Users\user\Documents\Code\Planted\Planted\Planted\bin\x86\Debug\Core\Planted.exe">
       <PackagePath>Planted.exe</PackagePath>
-      <Modified>2020-09-12T22:34:40.945</Modified>
+      <Modified>2020-09-20T01:37:58.267</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

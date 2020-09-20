@@ -26,5 +26,31 @@ namespace Planted
         {
             this.InitializeComponent();
         }
+
+        private void AloeBtn_Click(object sender, RoutedEventArgs e)
+        {
+            App.plantSelection = "Aloe Vera";
+
+            this.Frame.Navigate(typeof(PlantInfo), null);
+        }
+
+        private void SOPBtn_Click(object sender, RoutedEventArgs e)
+        {
+            App.plantSelection = "String of Pearls";
+
+            this.Frame.Navigate(typeof(PlantInfo), null);
+        }
+
+        private void SnakePlantBtn_Click(object sender, RoutedEventArgs e)
+        {
+            App.plantSelection = "Snake Plant";
+
+            this.Frame.Navigate(typeof(PlantInfo), null);
+        }
+
+        private void Back_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(HomePage), null);
+        }
     }
 }

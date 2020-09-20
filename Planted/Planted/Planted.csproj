@@ -149,14 +149,18 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Aloe.png" />
+    <Content Include="Assets\Back.png" />
     <Content Include="Assets\BirdOdParadise.png" />
     <Content Include="Assets\BirdOfParadiseBIG.png" />
     <Content Include="Assets\Blob1.png" />
     <Content Include="Assets\Blob2.png" />
     <Content Include="Assets\Blob3.png" />
     <Content Include="Assets\bottom.png" />
+    <Content Include="Assets\BunnyEars.png" />
     <Content Include="Assets\Cactus.png" />
     <Content Include="Assets\CactusTitle.png" />
+    <Content Include="Assets\Euphorbia.png" />
     <Content Include="Assets\Flowering.png" />
     <Content Include="Assets\FoliagePlants.png" />
     <Content Include="Assets\Foliage.png" />
@@ -166,8 +170,10 @@
     <Content Include="Assets\Peperomia.png" />
     <Content Include="Assets\PlantedLogo.png" />
     <Content Include="Assets\RubberTree.png" />
+    <Content Include="Assets\SnakePlant.png" />
     <Content Include="Assets\SpiderPlant.png" />
     <Content Include="Assets\SplashImage.png" />
+    <Content Include="Assets\StringOfPearls-1.png" />
     <Content Include="Assets\Succulents.png" />
     <Content Include="Assets\SucculentsTitle.png" />
     <Content Include="Assets\topBanner.png" />
