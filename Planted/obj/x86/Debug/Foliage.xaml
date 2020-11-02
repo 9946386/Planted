@@ -1,0 +1,106 @@
+﻿<Page
+    x:Class="Planted.Foliage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Planted"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+ 
+        <Grid>
+            
+            
+
+
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+
+            </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!--<Image x:Name="Back" Source="/Assets/Back.png" Grid.Row="0" Grid.Column="1" Tapped="Back_Tapped"/>-->
+            <!--<Button Content="Back" Name="BackButton" Click="BackButton_Click"></Button>-->
+
+            <Image Source="/Assets/Blob1.png" Grid.Row="1" Grid.RowSpan="4" Grid.Column="0" Grid.ColumnSpan="6" Margin="-100,0,0,0"/>
+            <Image Source="/Assets/Blob2.png" Grid.Row="4" Grid.RowSpan="8" Grid.Column="2" Grid.ColumnSpan="6" Margin="0,55,0,28"/>
+
+            <Image x:ConnectionId='2' x:Name="topBanner" Source="/Assets/topBanner.png" Grid.Row="0" Grid.RowSpan="3" Grid.Column="0" Grid.ColumnSpan="8" Margin="10,25,10,0"/>
+            <Image x:ConnectionId='3' x:Name="foliageTitle" Source="/Assets/FoliagePlants.png" Grid.Row="3" Grid.Column='2' Grid.ColumnSpan="4"/>
+
+            <Button x:ConnectionId='4' x:Name="BOPBtn" Background="Transparent" Grid.Row="4" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="3" Margin="20,0,0,0"                     >
+                <Image Source="/Assets/BirdOdParadise.png"/>
+            </Button>
+
+            <Button x:ConnectionId='5' x:Name="MonsteraBtn" Background="Transparent" Grid.Row="4" Grid.RowSpan="2" Grid.Column="4" Grid.ColumnSpan="3" Margin="20,0,0,0"                          >
+                <Image Source="/Assets/Monstera.png"/>
+            </Button>
+
+            <Button x:ConnectionId='6' x:Name="RubberTreeBtn" Background="Transparent" Grid.Row="6" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="3" Margin="20,0,0,0"                            >
+                <Image Source="/Assets/RubberTree.png"/>
+            </Button>
+
+            <Button x:ConnectionId='7' x:Name="PeperomiaBtn" Background="Transparent" Grid.Row="6" Grid.RowSpan="2" Grid.Column="4" Grid.ColumnSpan="3" Margin="20,0,0,0"                           >
+                <Image Source="/Assets/Peperomia.png"/>
+            </Button>
+
+            <Button x:ConnectionId='8' x:Name="PeaceLilyBtn" Background="White" Grid.Row="8" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="3" Margin="20,0,0,0"                           >
+                <Image Source="/Assets/PeaceLily.png"/>
+            </Button>
+
+            <Button x:ConnectionId='9' x:Name="ZebrinaBtn" Background="Transparent" Grid.Row="8" Grid.RowSpan="2" Grid.Column="4" Grid.ColumnSpan="3" Margin="20,0,0,0"                         >
+                <Image Source="/Assets/Zebrina.png"/>
+            </Button>
+
+            <Button x:ConnectionId='10' x:Name="OrbifoliaBtn" Background="Transparent" Grid.Row="10" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="3" Margin="20,0,0,0"                           >
+                <Image Source="/Assets/Orbofolia.png"/>
+            </Button>
+
+            <Button x:ConnectionId='11' x:Name="SpiderBtn" Background="Transparent" Grid.Row="10" Grid.RowSpan="2" Grid.Column="4" Grid.ColumnSpan="3" Margin="20,0,0,0"                        >
+                <Image Source="/Assets/SpiderPlant.png"/>
+            </Button>
+
+
+
+            <!--<TextBlock x:Name="PlantTitle" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="6" TextAlignment="Center" FontFamily="/Assets/Mont-HeavyDEMO.otf#Mont DEMO" Text="Foliage" FontSize="50px" FontWeight="Bold" Visibility="Collapsed"/>
+        <TextBlock x:Name="ScientificTitle" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="6" TextAlignment="Center" FontFamily="Mont DEMO" FontSize="30px" Text="Foliage" Visibility="Collapsed"/>
+
+        <Image x:Name="PlantInfoImage" Source="/Assets/BirdOfParadiseBIG.png" Grid.Row="3" Grid.RowSpan="3" Grid.Column="2" Grid.ColumnSpan="4" Visibility="Collapsed"/>
+
+        <TextBlock x:Name="Watering" Text="Watering:" FontFamily="Mont DEMO" FontWeight="Bold" FontSize="25px" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="4" Margin="0,15,0,0" Visibility="Collapsed"/>
+        <TextBlock x:Name="WateringText" Text="Watering:" FontFamily="Mont DEMO" FontSize="20px" Grid.Row="6" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="6" Margin="0,50,0,0" Visibility="Collapsed"/>
+
+        <TextBlock x:Name="Sunlight" Text="Sunlight" FontFamily="Mont DEMO" FontWeight="Bold" FontSize="25px" Grid.Row="8" Grid.Column="1" Grid.ColumnSpan="4" Margin="0,15,0,0" Visibility="Collapsed"/>
+        <TextBlock x:Name="SulightText" Text="Sunlight:" FontFamily="Mont DEMO" FontSize="20px" Grid.Row="8" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="6" Margin="0,50,0,0" Visibility="Collapsed"/>
+
+        <TextBlock x:Name="Temperature" Text="Temperature:" FontFamily="Mont DEMO" FontWeight="Bold" FontSize="25px" Grid.Row="10" Grid.Column="1" Grid.ColumnSpan="4" Margin="0,15,0,0" Visibility="Collapsed"/>
+        <TextBlock x:Name="TemperatureText" Text="Temperature:" FontFamily="Mont DEMO" FontSize="20px" Grid.Row="10" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="6" Margin="0,50,0,0" Visibility="Collapsed"/>-->
+
+
+        </Grid>
+
+
+</Page>
+
