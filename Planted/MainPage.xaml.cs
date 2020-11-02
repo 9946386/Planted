@@ -28,15 +28,35 @@ namespace Planted
         {
 
             this.InitializeComponent();
-            Redirect();
+            //Redirect();
 
         }
 
-        private async void Redirect()
+        private void HomeButton_Click(object sender, RoutedEventArgs e)
         {
-            await Task.Delay(3400);
-            this.Frame.Navigate(typeof(HomePage));
+            MyFrame.Navigate(typeof(HomePage));
         }
+
+        private void BackButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (MyFrame.CanGoBack)
+            {
+                MyFrame.GoBack();
+            }
+        }
+        private void NextButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (MyFrame.CanGoForward)
+            {
+                MyFrame.GoForward();
+            }
+        }
+
+        //private async void Redirect()
+        //{
+        //    await Task.Delay(3400);
+        //    this.Frame.Navigate(typeof(HomePage));
+        //}
 
     }
 }

@@ -217,9 +217,8 @@ namespace Planted
                 SunlightText.Text = thePlant.Sunlight;
                 TemperatureText.Text = thePlant.Temp;
                 ToxicityText.Text = thePlant.Toxic;
-                FactsText.Text = thePlant.Facts;          
+                FactsText.Text = thePlant.Facts;                 
             }
-
         }
 
         private void Back_Tapped(object sender, TappedRoutedEventArgs e)

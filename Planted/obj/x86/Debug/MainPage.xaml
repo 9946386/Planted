@@ -6,41 +6,54 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    RequestedTheme="Light">
 
-    <Grid>
+    <StackPanel Margin="0,0,0,0">
 
-        <Grid.RowDefinitions>
-            
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            
-        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Margin="40,20,0,20">
+            <Button x:ConnectionId='5' Content="Home" Name="HomeButton"                          Margin="0,0,10,0" />
+            <Button x:ConnectionId='6' Content="Back" Name="BackButton"                          Margin="0,0,10,0" />
+            <Button x:ConnectionId='7' Content="Next" Name="NextButton"                          />
+        </StackPanel>
 
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
+        <Frame x:ConnectionId='2' Name="MyFrame" MinHeight="500" MaxHeight="800">
 
-        <Image x:ConnectionId='2' x:Name="splashImage" Grid.Row="3" Grid.RowSpan="5" Grid.Column="1" Grid.ColumnSpan="6" Source="/Assets/SplashImage.png"/>
-        <Image x:ConnectionId='3' x:Name="logo" Grid.Row="8" Grid.Column="1" Grid.ColumnSpan="6" Source="/Assets/PlantedLogo.png"/>
+            <Grid>
 
-    </Grid>
+                <Grid.RowDefinitions>
+
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <Image x:ConnectionId='3' x:Name="splashImage" Grid.Row="3" Grid.RowSpan="5" Grid.Column="1" Grid.ColumnSpan="6" Source="/Assets/SplashImage.png"/>
+                <Image x:ConnectionId='4' x:Name="logo" Grid.Row="8" Grid.Column="1" Grid.ColumnSpan="6" Source="/Assets/PlantedLogo.png"/>
+
+            </Grid>
+        </Frame>
+    </StackPanel>
 </Page>
 

@@ -44,5 +44,25 @@ namespace Planted
             this.Frame.Navigate(typeof(Cactus));
         }
 
+        //private void HomeButton_Click(object sender, RoutedEventArgs e)
+        //{
+        //    MyFrame.Navigate(typeof(HomePage));
+        //}
+
+        //private void BackButton_Click(object sender, RoutedEventArgs e)
+        //{
+        //    if (MyFrame.CanGoBack)
+        //    {
+        //        MyFrame.GoBack();
+        //    }
+        //}
+
+        //private void NextButton_Click(object sender, RoutedEventArgs e)
+        //{
+        //    if (MyFrame.CanGoForward)
+        //    {
+        //        MyFrame.GoForward();
+        //    }
+        //}
     }
 }

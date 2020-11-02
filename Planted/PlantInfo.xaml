@@ -40,13 +40,11 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
-        <Image x:Name="Back" Source="/Assets/Back.png" Grid.Row="0" Grid.Column="1" Tapped="Back_Tapped"/>
-
         <Image Source="/Assets/Blob1.png" Grid.Row="1" Grid.RowSpan="4" Grid.Column="0" Grid.ColumnSpan="6" Margin="-100,0,0,0"/>
         <Image Source="/Assets/Blob2.png" Grid.Row="4" Grid.RowSpan="8" Grid.Column="2" Grid.ColumnSpan="6" Margin="0,55,0,28"/>
 
         <TextBlock x:Name="PlantTitle" Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" Grid.ColumnSpan="6" Margin="0,40,0,0" TextAlignment="Center" FontFamily="/Assets/Mont-HeavyDEMO.otf#Mont DEMO" Text="Plant Title" FontSize="40px" FontWeight="Bold"/>
-        <TextBlock x:Name="ScientificTitle" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="6" Margin="0,20,0,0" TextAlignment="Center" FontFamily="Mont DEMO" FontSize="25px" Text="Scientific Name"/>
+        <TextBlock x:Name="ScientificTitle" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="6" Margin="0,40,0,0" TextAlignment="Center" FontFamily="Mont DEMO" FontSize="25px" Text="Scientific Name"/>
 
         <Image x:Name="PlantInfoImage" Source="/Assets/BirdOfParadiseBIG.png" Grid.Row="2" Grid.RowSpan="3" Grid.Column="2" Grid.ColumnSpan="4"/>
 

@@ -6,13 +6,12 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
- 
-        <Grid>
-            
-            
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    RequestedTheme="Light">
+    
 
-
+        <Grid>        
+            
             <Grid.RowDefinitions>
 
                 <RowDefinition Height="*"/>
@@ -81,6 +80,8 @@
             <Button x:Name="SpiderBtn" Background="Transparent" Grid.Row="10" Grid.RowSpan="2" Grid.Column="4" Grid.ColumnSpan="3" Margin="20,0,0,0" Click="SpiderBtn_Click">
                 <Image Source="/Assets/SpiderPlant.png"/>
             </Button>
+            
+            
 
 
 
@@ -100,6 +101,7 @@
 
 
         </Grid>
+
 
 
 </Page>
