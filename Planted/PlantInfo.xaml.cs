@@ -11,6 +11,7 @@ using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
+using Windows.UI.Xaml.Media.Imaging;
 using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
@@ -22,13 +23,18 @@ namespace Planted
     /// </summary>
     public sealed partial class PlantInfo : Page
     {
-
+        /// <summary>
+        ///  The dictionary to store all plant info that will display when selected by the user.
+        ///  Each item in the dictionary contains the variables assigned to that inherited class.
+        /// </summary>
+        /// 
         Dictionary<string, Plant> plantDictionary = new Dictionary<string, Plant>()
         {
             {
                 "Bird of Paradise", new FoliagePlant()
                 {
                     PlantName="Bird of Paradise",
+                    ImageName="/Assets/BirdOdParadise.png",
                     ScientificName="Strelitzia Reginae",
                     Watering="Soil should be kept moist through summer. Water less in coldermonths.",
                     Sunlight="Bright, indirect light",
@@ -42,6 +48,7 @@ namespace Planted
                 "Monstera", new FoliagePlant()
                 {
                     PlantName="Monstera",
+                    ImageName="/Assets/Monstera.png",
                     ScientificName="Monstera Deliciosa",
                     Watering="Every 1-2 weeks, allowing soil to dry out between waterings",
                     Sunlight="Bright, indirect light.",
@@ -55,6 +62,7 @@ namespace Planted
                 "Rubber Tree", new FoliagePlant()
                 {
                     PlantName="Rubber Tree",
+                    ImageName="/Assets/RubberTree.png",
                     ScientificName="Ficus Elastica",
                     Watering="Keep soil evenly moist.",
                     Sunlight="Bright, indirect light.",
@@ -68,6 +76,7 @@ namespace Planted
                 "Raindrop", new FoliagePlant()
                 {
                     PlantName="Raindrop",
+                    ImageName="/Assets/Raindrop.png",
                     ScientificName="Peperomia polybotrya",
                     Watering="Give a thorough drink but allow soil to dry out between watering",
                     Sunlight="High levels of sunlight",
@@ -81,6 +90,7 @@ namespace Planted
                 "Peace Lily", new FoliagePlant()
                 {
                     PlantName="Peace Lily",
+                    ImageName="/Assets/PeaceLily.png",
                     ScientificName="Spathiphyllum",
                     Watering="Well draining pot, keep the soil moist.",
                     Sunlight="Bright, indirect sunlight.",
@@ -94,6 +104,7 @@ namespace Planted
                 "The Zebra Plant", new FoliagePlant()
                 {
                     PlantName="The Zebra Plant",
+                    ImageName="/Assets/Zebrina.png",
                     ScientificName="Calathea Zebrina",
                     Watering="Keep the soil moist, slow down watering in winter",
                     Sunlight="Bright, shaded spot is ideal.",
@@ -107,6 +118,7 @@ namespace Planted
                 "Calathea Orbifolia", new FoliagePlant()
                 {
                     PlantName="Orbofolia",
+                    ImageName="/Assets/Orbofolia.png",
                     ScientificName="Calathea Orbifolia",
                     Watering="Little and often",
                     Sunlight="Diffused light, shielded from direct light.",
@@ -120,6 +132,7 @@ namespace Planted
                 "Spider Plant", new FoliagePlant()
                 {
                     PlantName="Spider Plant",
+                    ImageName="/Assets/SpiderPlant",
                     ScientificName="Chlorophytum Comosum",
                     Watering="Keep well hydrated especially through the growing season.",
                     Sunlight="High levels of bright indirect light.",
@@ -133,6 +146,7 @@ namespace Planted
                 "Aloe Vera", new SucculentPlant()
                 {
                     PlantName="Aloe",
+                    ImageName="/Assets/Aloe.png",
                     ScientificName="Aloe Vera",
                     Watering="Keep soil moist. The plant retains a lot of water.",
                     Sunlight="Bright light conditions.",
@@ -147,6 +161,7 @@ namespace Planted
                 "String of Pearls", new SucculentPlant()
                 {
                     PlantName="String of Pearls",
+                    ImageName="/Assets/StringOfPearls-1.png",
                     ScientificName="Senecio rowleyanus",
                     Watering="Leave to dry out completely between watering.",
                     Sunlight="Prefers high levels of bright indirect sunlight.",
@@ -161,6 +176,7 @@ namespace Planted
                 "Snake Plant", new SucculentPlant()
                 {
                     PlantName="Snake Plant",
+                    ImageName="/Assets/SnakePlant.png",
                     ScientificName="Sansevieria trifasciata",
                     Watering="Allow the soil to dry out between watering.",
                     Sunlight="Moderate to high levels of sunlight.",
@@ -175,6 +191,7 @@ namespace Planted
                 "Bunny Ears", new CactusPlant()
                 {
                     PlantName="Bunny Ears",
+                    ImageName="/Assets/BunnyEars.png",
                     ScientificName="",
                     Watering="",
                     Sunlight="",
@@ -188,6 +205,7 @@ namespace Planted
                 "Euphorbia", new CactusPlant()
                 {
                     PlantName="Euphorbia Trigona",
+                    ImageName="/Assets/Euphorbia.png",
                     ScientificName="",
                     Watering="",
                     Sunlight="",
@@ -203,15 +221,22 @@ namespace Planted
         {
             this.InitializeComponent();
 
+            /// An If Else statement to display an error message if the plant is not found 
+            /// If the plant is found it will display the information from the dictionary 
+            /// 
+
             if (plantDictionary.ContainsKey(App.plantSelection) == false)
             {
-                PlantTitle.Text = "Plant not found";
+                PlantTitle.Text = "Plant not found"; ///Error message
+
+                PlantInfoImage.Source = new BitmapImage(new Uri("/Assets/BirdOfParadiseBIG.png", UriKind.RelativeOrAbsolute));
             }
             else 
             {
                 Plant thePlant = plantDictionary[App.plantSelection];
 
                 PlantTitle.Text = thePlant.PlantName;
+                PlantInfoImage.Source = new BitmapImage(new Uri(thePlant.ImageName, UriKind.RelativeOrAbsolute));
                 ScientificTitle.Text = thePlant.ScientificName;
                 WateringText.Text = thePlant.Watering;
                 SunlightText.Text = thePlant.Sunlight;
@@ -221,9 +246,9 @@ namespace Planted
             }
         }
 
-        private void Back_Tapped(object sender, TappedRoutedEventArgs e)
-        {
-            this.Frame.Navigate(typeof(HomePage), null);
-        }
+        //private void Back_Tapped(object sender, TappedRoutedEventArgs e)
+        //{
+        //    this.Frame.Navigate(typeof(HomePage), null);
+        //}
     }
 }

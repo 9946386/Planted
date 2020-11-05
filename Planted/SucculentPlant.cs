@@ -8,6 +8,11 @@ namespace Planted
 {
     class SucculentPlant : Plant
     {
+        /// <summary>
+        /// This Class is inherited from the Plant class
+        /// With some additions
+        /// </summary>
+        
         public string Flowers { get; set; }
 
         public SucculentPlant()

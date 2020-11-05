@@ -27,6 +27,13 @@ namespace Planted
             this.InitializeComponent();
         }
 
+
+        /// Below are the buttons for displaying each plant 
+        /// 
+
+        #region Plant Buttons
+
+
         private void AloeBtn_Click(object sender, RoutedEventArgs e)
         {
             App.plantSelection = "Aloe Vera";
@@ -52,5 +59,7 @@ namespace Planted
         {
             this.Frame.Navigate(typeof(HomePage), null);
         }
+
+        #endregion
     }
 }

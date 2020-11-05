@@ -28,15 +28,23 @@ namespace Planted
         {
 
             this.InitializeComponent();
-            //Redirect();
 
         }
 
+
+        /// Below are the navigation buttons 
+        /// 
+
+        #region Navigation
+
+        /// Home takes you to the assigned home page of HomePage
         private void HomeButton_Click(object sender, RoutedEventArgs e)
         {
             MyFrame.Navigate(typeof(HomePage));
         }
 
+        /// If the back button is clicked it will check if it is possible to go back
+        /// If it is it will go back a page
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
             if (MyFrame.CanGoBack)
@@ -44,6 +52,9 @@ namespace Planted
                 MyFrame.GoBack();
             }
         }
+
+        /// If the next button is clicked it will check if it is possible to go forward
+        /// If it is it will go forward a page
         private void NextButton_Click(object sender, RoutedEventArgs e)
         {
             if (MyFrame.CanGoForward)
@@ -52,11 +63,7 @@ namespace Planted
             }
         }
 
-        //private async void Redirect()
-        //{
-        //    await Task.Delay(3400);
-        //    this.Frame.Navigate(typeof(HomePage));
-        //}
+        #endregion
 
     }
 }

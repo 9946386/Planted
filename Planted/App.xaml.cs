@@ -28,6 +28,8 @@ namespace Planted
         /// </summary>
         /// 
 
+        /// Global variable to allow the dictionary information to be accessed anywhere in the app
+        /// 
         internal static string plantSelection = "";
 
         public App()

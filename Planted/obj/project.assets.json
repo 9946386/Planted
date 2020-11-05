@@ -8151,28 +8151,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\9946386\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\user\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\9946386\\source\\repos\\Planted\\Planted\\Planted.csproj",
+      "projectUniqueName": "C:\\Users\\user\\source\\repos\\Planted\\Planted\\Planted.csproj",
       "projectName": "Planted",
-      "projectPath": "C:\\Users\\9946386\\source\\repos\\Planted\\Planted\\Planted.csproj",
-      "packagesPath": "C:\\Users\\9946386\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\9946386\\source\\repos\\Planted\\Planted\\obj\\",
+      "projectPath": "C:\\Users\\user\\source\\repos\\Planted\\Planted\\Planted.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\source\\repos\\Planted\\Planted\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\9946386\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "uap10.0.17763"

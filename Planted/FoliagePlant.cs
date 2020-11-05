@@ -8,6 +8,7 @@ namespace Planted
 {
     class FoliagePlant : Plant
     {
-
+        /// This class is inherited from the Plant class
+        /// The information is all the same though
     }
 }
