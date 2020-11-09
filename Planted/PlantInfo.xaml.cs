@@ -76,7 +76,7 @@ namespace Planted
                 "Raindrop", new FoliagePlant()
                 {
                     PlantName="Raindrop",
-                    ImageName="/Assets/Raindrop.png",
+                    ImageName="/Assets/Peperomia.png",
                     ScientificName="Peperomia polybotrya",
                     Watering="Give a thorough drink but allow soil to dry out between watering",
                     Sunlight="High levels of sunlight",
@@ -192,12 +192,12 @@ namespace Planted
                 {
                     PlantName="Bunny Ears",
                     ImageName="/Assets/BunnyEars.png",
-                    ScientificName="",
-                    Watering="",
-                    Sunlight="",
-                    Temp="",
-                    Toxic="",
-                    Facts=""
+                    ScientificName="Opuntia Microdasys",
+                    Watering="This is a desert species. Soil should be kept moist but not soggy",
+                    Sunlight="Demands full light for growing most of the year",
+                    Temp="High temperatures, 21-37 degrees",
+                    Toxic="Can irritate skin",
+                    Facts="The bunny ears is native to Northern Mexico and desert regions stretching into Arizona"
                 }
             },
 
@@ -206,12 +206,12 @@ namespace Planted
                 {
                     PlantName="Euphorbia Trigona",
                     ImageName="/Assets/Euphorbia.png",
-                    ScientificName="",
-                    Watering="",
-                    Sunlight="",
-                    Temp="",
-                    Toxic="",
-                    Facts=""
+                    ScientificName="Euphorbia Trigona",
+                    Watering="Do not overwater. Keep the soil moist but not soggy",
+                    Sunlight="Prefers bright light. Direct sun may burn the plant",
+                    Temp="High temperatures",
+                    Toxic="Sap can irritate skin",
+                    Facts="This plant is also known as the African Milk Tree"
                 }
             }
 
@@ -236,7 +236,7 @@ namespace Planted
                 Plant thePlant = plantDictionary[App.plantSelection];
 
                 PlantTitle.Text = thePlant.PlantName;
-                PlantInfoImage.Source = new BitmapImage(new Uri(thePlant.ImageName, UriKind.RelativeOrAbsolute));
+                PlantInfoImage.Source = new BitmapImage(new Uri(this.BaseUri, thePlant.ImageName));
                 ScientificTitle.Text = thePlant.ScientificName;
                 WateringText.Text = thePlant.Watering;
                 SunlightText.Text = thePlant.Sunlight;
@@ -246,9 +246,5 @@ namespace Planted
             }
         }
 
-        //private void Back_Tapped(object sender, TappedRoutedEventArgs e)
-        //{
-        //    this.Frame.Navigate(typeof(HomePage), null);
-        //}
     }
 }

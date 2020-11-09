@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\user\source\repos\Planted\Planted\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-11-05T01:15:09.054</Modified>
+      <Modified>2020-11-08T23:56:37.259</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\bin\x86\Debug\Planted.exe">
       <PackagePath>entrypoint\Planted.exe</PackagePath>
-      <Modified>2020-11-05T01:15:08.494</Modified>
+      <Modified>2020-11-08T23:56:36.708</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\user\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -210,35 +210,35 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\bin\x86\Debug\Planted.xr.xml">
       <PackagePath>Planted.xr.xml</PackagePath>
-      <Modified>2020-11-04T23:43:56.745</Modified>
+      <Modified>2020-11-08T23:52:56.261</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-11-05T01:15:08.247</Modified>
+      <Modified>2020-11-08T23:52:56.318</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\bin\x86\Debug\Cactus.xbf">
       <PackagePath>Cactus.xbf</PackagePath>
-      <Modified>2020-11-05T01:15:08.248</Modified>
+      <Modified>2020-11-08T23:52:56.319</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\bin\x86\Debug\Foliage.xbf">
       <PackagePath>Foliage.xbf</PackagePath>
-      <Modified>2020-11-05T01:15:08.249</Modified>
+      <Modified>2020-11-08T23:52:56.319</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\bin\x86\Debug\HomePage.xbf">
       <PackagePath>HomePage.xbf</PackagePath>
-      <Modified>2020-11-05T01:15:08.250</Modified>
+      <Modified>2020-11-08T23:56:36.457</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-11-05T01:15:08.250</Modified>
+      <Modified>2020-11-08T23:52:56.320</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\bin\x86\Debug\PlantInfo.xbf">
       <PackagePath>PlantInfo.xbf</PackagePath>
-      <Modified>2020-11-05T01:15:08.251</Modified>
+      <Modified>2020-11-08T23:52:56.321</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\bin\x86\Debug\Succulent.xbf">
       <PackagePath>Succulent.xbf</PackagePath>
-      <Modified>2020-11-05T01:15:08.252</Modified>
+      <Modified>2020-11-08T23:52:56.322</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -250,7 +250,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\user\source\repos\Planted\Planted\bin\x86\Debug\Core\Planted.exe">
       <PackagePath>Planted.exe</PackagePath>
-      <Modified>2020-11-05T01:15:09.049</Modified>
+      <Modified>2020-11-08T23:56:37.252</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

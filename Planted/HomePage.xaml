@@ -55,15 +55,22 @@
 
                 <Button x:Name="FoliageButton" Grid.Row="2" Grid.RowSpan="3" Grid.Column="1" Grid.ColumnSpan="6" Background="Transparent" Margin="8,15,0,0" Click="Button_Click" ClickMode="Press">
                     <Image Source="/Assets/Foliage.png"/>
-                </Button>
+                 </Button>
+
+                <TextBlock x:Name="ErrorMsg1" Grid.Row="2" Grid.RowSpan="3" Grid.Column="1" Grid.ColumnSpan="6" Margin="8,15,0,0" Visibility="Collapsed"></TextBlock>
 
                 <Button x:Name="SucculentsButton" Grid.Row="5" Grid.RowSpan="3" Grid.Column="1" Grid.ColumnSpan="6" Background="Transparent" Margin="8,5,0,0" Click="SucculentsButton_Click" ClickMode="Press">
                     <Image Source="/Assets/Succulents.png"/>
                 </Button>
 
+                <TextBlock x:Name="ErrorMsg2" Grid.Row="5" Grid.RowSpan="3" Grid.Column="1" Grid.ColumnSpan="6" Margin="8,5,0,0" Visibility="Collapsed"></TextBlock>
+
                 <Button x:Name="CactusButton" Grid.Row="8" Grid.RowSpan="3" Grid.Column="1" Grid.ColumnSpan="6" Background="Transparent" Margin="8,-15,0,0" Click="CactusButton_Click" ClickMode="Press">
                     <Image Source="/Assets/Cactus.png"/>
                 </Button>
+
+                <TextBlock x:Name="ErrorMsg3" Grid.Row="8" Grid.RowSpan="3" Grid.Column="1" Grid.ColumnSpan="6" Margin="8,-15,0,0" Visibility="Collapsed"></TextBlock>
+
 
             </Grid>
         <!--</Frame>-->

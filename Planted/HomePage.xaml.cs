@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -36,17 +37,39 @@ namespace Planted
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Foliage));
+            try
+            {
+                this.Frame.Navigate(typeof(Foliage));
+            }
+            catch 
+            {
+                ErrorMsg1.Text = "Error occurred when selecting Foliage Plants";
+            }
+            
         }
 
         private void SucculentsButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Succulent));
+            try
+            {
+                this.Frame.Navigate(typeof(Succulent));
+            }
+            catch
+            {
+                ErrorMsg2.Text = "Error occurred when selecting Succulent Plants";
+            }
         }
 
         private void CactusButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Cactus));
+            try
+            {
+                this.Frame.Navigate(typeof(Cactus));
+            }
+            catch
+            {
+                ErrorMsg3.Text = "Error occurred when selecting Succulent Plants";
+            }
         }
 
         #endregion
