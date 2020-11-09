@@ -132,7 +132,7 @@ namespace Planted
                 "Spider Plant", new FoliagePlant()
                 {
                     PlantName="Spider Plant",
-                    ImageName="/Assets/SpiderPlant",
+                    ImageName="/Assets/SpiderPlant.png",
                     ScientificName="Chlorophytum Comosum",
                     Watering="Keep well hydrated especially through the growing season.",
                     Sunlight="High levels of bright indirect light.",

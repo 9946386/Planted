@@ -9,14 +9,19 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
     RequestedTheme="Light">
 
+    <!--Stack Panel created to contain the pages stack so that the navigation can go back and forward as pages are added to the stack.
+    Pages will be loaded into the frame below-->
+    
     <StackPanel Margin="0,0,0,0">
 
+        <!--Navigation buttons-->
         <StackPanel Orientation="Horizontal" Margin="40,20,0,20">
             <Button x:ConnectionId='5' Content="Home" Name="HomeButton"                          Margin="0,0,10,0" />
             <Button x:ConnectionId='6' Content="Back" Name="BackButton"                          Margin="0,0,10,0" />
             <Button x:ConnectionId='7' Content="Next" Name="NextButton"                          />
         </StackPanel>
 
+        <!--Frame to contain "pages" in the stack-->
         <Frame x:ConnectionId='2' Name="MyFrame" MinHeight="500" MaxHeight="800">
 
             <Grid>
